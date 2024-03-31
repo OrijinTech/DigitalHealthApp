@@ -1,6 +1,6 @@
 # Digital Health Project
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![GitHub stars](https://img.shields.io/github/stars/yourusername/yourproject.svg)](https://github.com/yourusername/yourproject/stargazers)
 
 The project tries to monitor, analyze and suggest human health and lifestyle data. This project allows individuals to understand their health in a quantified way. The future of quantifying personal health. Of course this project is open to anyone who would like to contribute. Any contribution you can make is welcome. Let's build the future of health and lifestyle!
