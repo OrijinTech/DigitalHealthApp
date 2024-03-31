@@ -1,4 +1,4 @@
-# Digital Health Project
+# Digital Health Project (IOS Application)
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![GitHub stars](https://img.shields.io/github/stars/yourusername/yourproject.svg)](https://github.com/yourusername/yourproject/stargazers)
@@ -25,7 +25,7 @@ The project is constructed with 4 major blocks: Data Acquisition, Data Analysis,
 </div>
 
 ### Ideal Functionalities:
-1. Onboard on IOS (Android in the future)
+1. Onboard on IOS
 2. Photo taking or Uploading photo as user input.
 4. Photo(input) --> Nutrition Data(Output)
 5. Ingredients detection
@@ -38,17 +38,9 @@ The project is constructed with 4 major blocks: Data Acquisition, Data Analysis,
 12. Health Report generation
 
 
-## Installation
-
-1. After you fork the repo, please also download the [data](https://drive.google.com/file/d/1kJKTkHyc9rYIilN2Mvtk3IsABk7uvHoF/view?usp=drive_link) from my drive.
-2. Put the downloaded data folder into the directory where your source code is located.
-3. If you would like to use my model, you can download it [here](https://drive.google.com/file/d/1OI7ACwewcBvN1daJTsd9hWcZujiGlLzE/view?usp=drive_link) too.
-4. If you downloaded my model, put the model under the same directory as the source code.
-
-
 ## Usage
 Current functionalities include:
-1. Image to list of ingredients.
+
 
 ## Contributing
 
@@ -56,8 +48,6 @@ Any contribution is needed! We will be managing all communications via Discord.
 Coming Soon: Discord Channel
 
 ## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## Credits
 
