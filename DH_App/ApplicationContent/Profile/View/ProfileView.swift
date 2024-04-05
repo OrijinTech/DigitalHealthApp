@@ -11,6 +11,7 @@ struct ProfileView: View {
     @StateObject var viewModel = ProfileViewModel()
     @State private var showingProfileInfo: Bool = false
     @State private var showingProfilePreview: Bool = false
+    @State private var selectedView: ProfileOptions?
     
     private var user: User? {
         return viewModel.currentUser
@@ -65,9 +66,14 @@ struct ProfileView: View {
             .padding(.vertical, 40)
             
             List {
-                Section {
+                Section { // Choices
                     ForEach(ProfileOptions.allCases){ option in
-                        Text(option.title)
+                        Button {
+                            self.selectedView = option
+                        } label: {
+                            Text(option.title)
+                                .foregroundStyle(Color(.black))
+                        }
                     }
                 }
                 
@@ -89,6 +95,9 @@ struct ProfileView: View {
         .fullScreenCover(isPresented: $showingProfilePreview, content: {
             ProfilePreviewView(user: user ?? User.MOCK_USER, showingProfilePreview: $showingProfilePreview)
         })
+        .fullScreenCover(item: $selectedView) { viewCase in
+            OptionViewHub(enumCase: viewCase)
+        }
         
     }
     

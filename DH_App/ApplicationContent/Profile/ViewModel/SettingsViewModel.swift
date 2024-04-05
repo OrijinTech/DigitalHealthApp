@@ -15,6 +15,7 @@ enum ProfileOptions: Int, CaseIterable, Identifiable {
     case healthRecords
     case settings
     
+    
     var title: LocalizedStringKey {
         switch self {
         case .dietPlans:
@@ -27,6 +28,7 @@ enum ProfileOptions: Int, CaseIterable, Identifiable {
             return "Settings"
         }
     }
+    
 }
 
 

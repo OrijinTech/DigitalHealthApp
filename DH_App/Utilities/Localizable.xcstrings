@@ -71,6 +71,9 @@
         }
       }
     },
+    "Back" : {
+
+    },
     "birthday" : {
       "localizations" : {
         "zh-Hans" : {

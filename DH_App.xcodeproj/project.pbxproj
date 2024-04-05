@@ -86,9 +86,14 @@
 		54AF44AB2B9E486E001C236D /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AF44AA2B9E486E001C236D /* LoginViewModel.swift */; };
 		54AF44B12B9E4973001C236D /* AuthServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AF44B02B9E4973001C236D /* AuthServices.swift */; };
 		54AF44B32B9E4996001C236D /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AF44B22B9E4996001C236D /* RegisterViewModel.swift */; };
-		54AF44B52B9E4E0B001C236D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54AF44B42B9E4E0B001C236D /* GoogleService-Info.plist */; };
 		54AF44B82B9E50EE001C236D /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AF44B72B9E50EE001C236D /* MainMenuView.swift */; };
 		54AF44BD2B9E5164001C236D /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AF44BC2B9E5164001C236D /* MenuViewModel.swift */; };
+		54BA04E22BBF011D000B7262 /* OptionViewHub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BA04E12BBF011D000B7262 /* OptionViewHub.swift */; };
+		54BA04ED2BBF3118000B7262 /* DietPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BA04EC2BBF3118000B7262 /* DietPlanView.swift */; };
+		54BA04EF2BBF3125000B7262 /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BA04EE2BBF3125000B7262 /* FriendsView.swift */; };
+		54BA04F12BBF313A000B7262 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BA04F02BBF313A000B7262 /* SettingsView.swift */; };
+		54C6E9452BBA001800F6B559 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54C6E9442BBA001800F6B559 /* GoogleService-Info.plist */; };
+		54C6E9472BBAE0D400F6B559 /* HealthRecordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C6E9462BBAE0D400F6B559 /* HealthRecordsView.swift */; };
 		54CF65D82BA8C6A600FFD944 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CF65D72BA8C6A600FFD944 /* StringExtension.swift */; };
 		54CF65DA2BA8C77300FFD944 /* AlertContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CF65D92BA8C77300FFD944 /* AlertContent.swift */; };
 /* End PBXBuildFile section */
@@ -146,9 +151,14 @@
 		54AF44AA2B9E486E001C236D /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		54AF44B02B9E4973001C236D /* AuthServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthServices.swift; sourceTree = "<group>"; };
 		54AF44B22B9E4996001C236D /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
-		54AF44B42B9E4E0B001C236D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Desktop/Digital_health/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		54AF44B72B9E50EE001C236D /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
 		54AF44BC2B9E5164001C236D /* MenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
+		54BA04E12BBF011D000B7262 /* OptionViewHub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionViewHub.swift; sourceTree = "<group>"; };
+		54BA04EC2BBF3118000B7262 /* DietPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietPlanView.swift; sourceTree = "<group>"; };
+		54BA04EE2BBF3125000B7262 /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
+		54BA04F02BBF313A000B7262 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		54C6E9442BBA001800F6B559 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Desktop/Digital_health/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		54C6E9462BBAE0D400F6B559 /* HealthRecordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthRecordsView.swift; sourceTree = "<group>"; };
 		54CF65D72BA8C6A600FFD944 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		54CF65D92BA8C77300FFD944 /* AlertContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertContent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -244,7 +254,10 @@
 			children = (
 				5409429F2B9F8D8E00FA2DCC /* View */,
 				54AF44BA2B9E511F001C236D /* ViewModel */,
-				5453A6462BB9F32000863A51 /* HealthProfile */,
+				54BA04E32BBF3064000B7262 /* DietPlans */,
+				54BA04E42BBF3091000B7262 /* Friends */,
+				5453A6462BB9F32000863A51 /* HealthRecords */,
+				54BA04E52BBF30AC000B7262 /* Settings */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -264,6 +277,7 @@
 				5437A5532B9F511E008C5DA6 /* ProfileView.swift */,
 				54AF1ED12BA24C2700EFB851 /* EditProfileView.swift */,
 				5490BC992BA8A3AE0027F78E /* ProfilePreviewView.swift */,
+				54BA04E12BBF011D000B7262 /* OptionViewHub.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -319,18 +333,19 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		5453A6462BB9F32000863A51 /* HealthProfile */ = {
+		5453A6462BB9F32000863A51 /* HealthRecords */ = {
 			isa = PBXGroup;
 			children = (
 				5453A6472BB9F33600863A51 /* View */,
 				5453A6482BB9F34100863A51 /* ViewModel */,
 			);
-			path = HealthProfile;
+			path = HealthRecords;
 			sourceTree = "<group>";
 		};
 		5453A6472BB9F33600863A51 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				54C6E9462BBAE0D400F6B559 /* HealthRecordsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -416,7 +431,7 @@
 				540942922B9F827300FA2DCC /* Objects */,
 				54AF446A2B9E2D34001C236D /* Utilities */,
 				54AF445D2B9E288F001C236D /* Assets.xcassets */,
-				54AF44B42B9E4E0B001C236D /* GoogleService-Info.plist */,
+				54C6E9442BBA001800F6B559 /* GoogleService-Info.plist */,
 				54AF445F2B9E288F001C236D /* Preview Content */,
 				5490BC7C2BA5A9460027F78E /* Readme.txt */,
 			);
@@ -494,6 +509,78 @@
 				54AF44B02B9E4973001C236D /* AuthServices.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		54BA04E32BBF3064000B7262 /* DietPlans */ = {
+			isa = PBXGroup;
+			children = (
+				54BA04E62BBF30CB000B7262 /* View */,
+				54BA04E72BBF30D0000B7262 /* ViewModel */,
+			);
+			path = DietPlans;
+			sourceTree = "<group>";
+		};
+		54BA04E42BBF3091000B7262 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				54BA04E92BBF30DF000B7262 /* View */,
+				54BA04E82BBF30D9000B7262 /* ViewModel */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		54BA04E52BBF30AC000B7262 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				54BA04EB2BBF30ED000B7262 /* View */,
+				54BA04EA2BBF30E8000B7262 /* ViewModel */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		54BA04E62BBF30CB000B7262 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				54BA04EC2BBF3118000B7262 /* DietPlanView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		54BA04E72BBF30D0000B7262 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		54BA04E82BBF30D9000B7262 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		54BA04E92BBF30DF000B7262 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				54BA04EE2BBF3125000B7262 /* FriendsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		54BA04EA2BBF30E8000B7262 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		54BA04EB2BBF30ED000B7262 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				54BA04F02BBF313A000B7262 /* SettingsView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -596,7 +683,7 @@
 				5490BC662BA394AA0027F78E /* Localizable.xcstrings in Resources */,
 				54AF445E2B9E288F001C236D /* Assets.xcassets in Resources */,
 				5490BC7D2BA5A9460027F78E /* Readme.txt in Resources */,
-				54AF44B52B9E4E0B001C236D /* GoogleService-Info.plist in Resources */,
+				54C6E9452BBA001800F6B559 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -628,6 +715,8 @@
 				5437A5542B9F511E008C5DA6 /* ProfileView.swift in Sources */,
 				540942B22BA2371D00FA2DCC /* MyDayViewModel.swift in Sources */,
 				5490BC722BA4E3DD0027F78E /* OtherUserView.swift in Sources */,
+				54BA04F12BBF313A000B7262 /* SettingsView.swift in Sources */,
+				54BA04ED2BBF3118000B7262 /* DietPlanView.swift in Sources */,
 				5490BC752BA4E6DD0027F78E /* ProfileThreadFilter.swift in Sources */,
 				540942A32B9F8E0800FA2DCC /* ProfileViewModel.swift in Sources */,
 				54AF44B12B9E4973001C236D /* AuthServices.swift in Sources */,
@@ -636,6 +725,7 @@
 				540942962B9F84F800FA2DCC /* FirebaseConstants.swift in Sources */,
 				5490BC812BA636AE0027F78E /* PhotoComponents.swift in Sources */,
 				54AF44BD2B9E5164001C236D /* MenuViewModel.swift in Sources */,
+				54C6E9472BBAE0D400F6B559 /* HealthRecordsView.swift in Sources */,
 				5490BC5D2BA34D420027F78E /* LoadingScreenView.swift in Sources */,
 				5437A55E2B9F55EE008C5DA6 /* SettingsViewModel.swift in Sources */,
 				5437A55A2B9F5264008C5DA6 /* CommunityView.swift in Sources */,
@@ -645,6 +735,7 @@
 				5490BC772BA4F0870027F78E /* EditInfoView.swift in Sources */,
 				5437A5562B9F524B008C5DA6 /* MyCoachView.swift in Sources */,
 				5490BC6A2BA4BAE30027F78E /* ThreadCell.swift in Sources */,
+				54BA04EF2BBF3125000B7262 /* FriendsView.swift in Sources */,
 				54AF446C2B9E2D7D001C236D /* CustomModifiers.swift in Sources */,
 				54AF445A2B9E288E001C236D /* DH_AppApp.swift in Sources */,
 				540942942B9F828300FA2DCC /* User.swift in Sources */,
@@ -655,6 +746,7 @@
 				5490BC702BA4E35E0027F78E /* UserCell.swift in Sources */,
 				5490BC882BA75D700027F78E /* Thread.swift in Sources */,
 				54AF1ED22BA24C2700EFB851 /* EditProfileView.swift in Sources */,
+				54BA04E22BBF011D000B7262 /* OptionViewHub.swift in Sources */,
 				54AF44702B9E3187001C236D /* SignInView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
