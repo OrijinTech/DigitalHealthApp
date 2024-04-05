@@ -10,13 +10,25 @@ import SwiftUI
 struct SettingsView: View {
     var body: some View {
         NavigationStack {
-            VStack {
+            List {
+                Section(LocalizedStringKey("Settings Section 1")) {
+                    ForEach(SettingsOptions.allCases) { option in
+                        Text(option.title)
+                            .padding(.vertical, 8)
+                    }
+                }
+                
+                Section(LocalizedStringKey("Settings Section 2")) {
+                    ForEach(SettingsOptions.allCases) { option in
+                        Text(option.title)
+                            .padding(.vertical, 8)
+                    }
+                }
                 
             }
+            .listStyle(.grouped)
             .navigationTitle(LocalizedStringKey("Settings"))
             .navigationBarTitleDisplayMode(.inline)
-            
-            
         }
         
     }

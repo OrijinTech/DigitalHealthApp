@@ -98,7 +98,6 @@ struct ProfileView: View {
         .fullScreenCover(item: $selectedView) { viewCase in
             OptionViewHub(enumCase: viewCase)
         }
-        
     }
     
     

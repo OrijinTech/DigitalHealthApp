@@ -21,7 +21,7 @@
 		5437A5582B9F525C008C5DA6 /* MediaInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5437A5572B9F525C008C5DA6 /* MediaInputView.swift */; };
 		5437A55A2B9F5264008C5DA6 /* CommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5437A5592B9F5264008C5DA6 /* CommunityView.swift */; };
 		5437A55C2B9F5280008C5DA6 /* MyDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5437A55B2B9F5280008C5DA6 /* MyDayView.swift */; };
-		5437A55E2B9F55EE008C5DA6 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5437A55D2B9F55EE008C5DA6 /* SettingsViewModel.swift */; };
+		5437A55E2B9F55EE008C5DA6 /* ProfileViewEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5437A55D2B9F55EE008C5DA6 /* ProfileViewEnums.swift */; };
 		5490BC5D2BA34D420027F78E /* LoadingScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5490BC5C2BA34D420027F78E /* LoadingScreenView.swift */; };
 		5490BC662BA394AA0027F78E /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 5490BC652BA394AA0027F78E /* Localizable.xcstrings */; };
 		5490BC6A2BA4BAE30027F78E /* ThreadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5490BC692BA4BAE30027F78E /* ThreadCell.swift */; };
@@ -92,6 +92,7 @@
 		54BA04ED2BBF3118000B7262 /* DietPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BA04EC2BBF3118000B7262 /* DietPlanView.swift */; };
 		54BA04EF2BBF3125000B7262 /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BA04EE2BBF3125000B7262 /* FriendsView.swift */; };
 		54BA04F12BBF313A000B7262 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BA04F02BBF313A000B7262 /* SettingsView.swift */; };
+		54BA04F32BBFF075000B7262 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54BA04F22BBFF075000B7262 /* SettingsViewModel.swift */; };
 		54C6E9452BBA001800F6B559 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54C6E9442BBA001800F6B559 /* GoogleService-Info.plist */; };
 		54C6E9472BBAE0D400F6B559 /* HealthRecordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C6E9462BBAE0D400F6B559 /* HealthRecordsView.swift */; };
 		54CF65D82BA8C6A600FFD944 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CF65D72BA8C6A600FFD944 /* StringExtension.swift */; };
@@ -112,7 +113,7 @@
 		5437A5572B9F525C008C5DA6 /* MediaInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaInputView.swift; sourceTree = "<group>"; };
 		5437A5592B9F5264008C5DA6 /* CommunityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityView.swift; sourceTree = "<group>"; };
 		5437A55B2B9F5280008C5DA6 /* MyDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDayView.swift; sourceTree = "<group>"; };
-		5437A55D2B9F55EE008C5DA6 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		5437A55D2B9F55EE008C5DA6 /* ProfileViewEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewEnums.swift; sourceTree = "<group>"; };
 		5490BC5C2BA34D420027F78E /* LoadingScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingScreenView.swift; sourceTree = "<group>"; };
 		5490BC5E2BA3565D0027F78E /* DH-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DH-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 		5490BC652BA394AA0027F78E /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
@@ -157,6 +158,7 @@
 		54BA04EC2BBF3118000B7262 /* DietPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietPlanView.swift; sourceTree = "<group>"; };
 		54BA04EE2BBF3125000B7262 /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
 		54BA04F02BBF313A000B7262 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		54BA04F22BBFF075000B7262 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 		54C6E9442BBA001800F6B559 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Desktop/Digital_health/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		54C6E9462BBAE0D400F6B559 /* HealthRecordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthRecordsView.swift; sourceTree = "<group>"; };
 		54CF65D72BA8C6A600FFD944 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
@@ -495,7 +497,7 @@
 		54AF44BA2B9E511F001C236D /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				5437A55D2B9F55EE008C5DA6 /* SettingsViewModel.swift */,
+				5437A55D2B9F55EE008C5DA6 /* ProfileViewEnums.swift */,
 				540942A22B9F8E0800FA2DCC /* ProfileViewModel.swift */,
 			);
 			path = ViewModel;
@@ -571,6 +573,7 @@
 		54BA04EA2BBF30E8000B7262 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				54BA04F22BBFF075000B7262 /* SettingsViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -724,10 +727,11 @@
 				5490BC8A2BA75EA10027F78E /* CreateThreadViewModel.swift in Sources */,
 				540942962B9F84F800FA2DCC /* FirebaseConstants.swift in Sources */,
 				5490BC812BA636AE0027F78E /* PhotoComponents.swift in Sources */,
+				54BA04F32BBFF075000B7262 /* SettingsViewModel.swift in Sources */,
 				54AF44BD2B9E5164001C236D /* MenuViewModel.swift in Sources */,
 				54C6E9472BBAE0D400F6B559 /* HealthRecordsView.swift in Sources */,
 				5490BC5D2BA34D420027F78E /* LoadingScreenView.swift in Sources */,
-				5437A55E2B9F55EE008C5DA6 /* SettingsViewModel.swift in Sources */,
+				5437A55E2B9F55EE008C5DA6 /* ProfileViewEnums.swift in Sources */,
 				5437A55A2B9F5264008C5DA6 /* CommunityView.swift in Sources */,
 				5490BC9C2BA8A40C0027F78E /* ThreadList.swift in Sources */,
 				5437A55C2B9F5280008C5DA6 /* MyDayView.swift in Sources */,
