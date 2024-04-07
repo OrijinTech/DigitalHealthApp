@@ -24,18 +24,11 @@ The project is constructed with 4 major blocks: Data Acquisition, Data Analysis,
     <img src="https://github.com/OrijinTech/DigitalHealth/assets/32666867/bb4e6fa9-ced7-4f2e-a0d6-2d49f47ca968" alt="Chinese_idea" width="400"/>
 </div>
 
-### Ideal Functionalities:
-1. Onboard on IOS
-2. Photo taking or Uploading photo as user input.
-4. Photo(input) --> Nutrition Data(Output)
-5. Ingredients detection
-6. Nutrition calculation
-7. Food health level decision(whether the food is healthy or not).
-8. Water intake logging (Manual input)
-9. Reward system for water intake.
-10. Food intake logging (From the user's photo)
-11. User data storage
-12. Health Report generation
+### Current Functionalities:
+
+Authentication System:
+<img src="https://github.com/OrijinTech/DigitalHealthApp/assets/32666867/9c47fa64-f012-49f1-9769-450feb60897d.png" width="200" height="450" />         <img src="https://user-images.githubusercontent.com/32666867/233091938-6b4b7a3f-e14f-40a2-9da2-291e2eb6e086.png" width="200" height="450" />
+
 
 
 ## Usage
