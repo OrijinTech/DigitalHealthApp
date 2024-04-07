@@ -7,14 +7,15 @@ The project tries to monitor, analyze and suggest human health and lifestyle dat
 
 For more information please check out the [whitepaper](https://aiyulabs.gitbook.io/digital-health/) (In Progress) !
 
+
 ## Table of Contents
 
 - [Project Ideology](#project-ideology)
-- [Installation](#installation)
-- [Usage](#usage)
+- [Current Functionalities](#current-functionalities)
 - [Contributing](#contributing)
 - [License](#license)
 - [Credits](#credits)
+
 
 ## Project Ideology
 
@@ -43,10 +44,6 @@ The project is constructed with 4 major blocks: Data Acquisition, Data Analysis,
 
 ### Profile Page:
 <img src="https://github.com/OrijinTech/DigitalHealthApp/assets/32666867/8fb8afab-67d8-4d9e-8fd9-70681cc62393.png" width="200" height="450" />         <img src="https://github.com/OrijinTech/DigitalHealthApp/assets/32666867/77ca2dc3-1bbf-4b30-af1e-4a6ed63fb024.png" width="200" height="450" />
-
-
-## Usage
-Current functionalities include:
 
 
 ## Contributing
