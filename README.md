@@ -26,7 +26,7 @@ The project is constructed with 4 major blocks: Data Acquisition, Data Analysis,
 
 ### Current Functionalities:
 
-Authentication System:
+#### Authentication System:
 <img src="https://github.com/OrijinTech/DigitalHealthApp/assets/32666867/9c47fa64-f012-49f1-9769-450feb60897d.png" width="200" height="450" />         <img src="https://user-images.githubusercontent.com/32666867/233091938-6b4b7a3f-e14f-40a2-9da2-291e2eb6e086.png" width="200" height="450" />
 
 
